@@ -1,5 +1,0 @@
-Grupo 3 - Jogo CaTEAdventures.
-Nome dos Integrantes: Fabiana da Silva Cunha, Karla Gonçalves dos Santos, Lucas Matheus Torres Cardoso, Samuel Patrício Vieira Mendonça.
-
-Como acessar o jogo:
- Ao entrar na pasta "Programação", logo em seguida descompacte a pasta "CaTEAdventures" e entre nesta pasta, abra o arquivo cujo o nome "index.html", você já vai estar sendo redirecionado para o seu navegador padrão para poder jogar o jogo. Não precisa fazer login e nem cadastro, já que não tem essa função no nosso projeto.

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CaTEAdventures</title>
+    <link rel="stylesheet" href="styles/parte5.css">
+</head>
+<body>
+    <main>
+        <section>
+            <a href="parte6.html">
+                <button>
+                </button>
+            </a>
+            <a href="parte4.html">
+                <button class="botao-esquerdo">
+                </button>
+            </a>
+            <a href="index.html">
+                <button class="botao-inicio">
+                </button>
+            </a>
+            <img src="assets/img/botao-verde.png" alt="Botão de Som" class="botao-imagem" id="botaoSom">
+         <audio id="som">
+            <source src="assets/audio/grilo.mp3">
+        </audio>
+        </section>
+        <script>
+            const botao = document.getElementById('botaoSom');
+            const som = document.getElementById('som');
+
+            botao.addEventListener('click', () => {
+            som.currentTime = 0;
+            som.play();
+    });
+  </script>
+    </main>
+</body>
+</html>
